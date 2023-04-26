@@ -44,7 +44,11 @@ public class Menu {
             
         case "Condicional doble" :
             
-        
+           int cantidadBodega2 = Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese la cantidad que hay en bodega: "));
+          
+           int cantMinimaReq2 = Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese la cantidad minima requerida: "));
+            
+           CondicionalDoble.determinarRealizacionDePedido(cantidadBodega2, cantMinimaReq2);
             
             break;
             

@@ -86,6 +86,10 @@ public class Menu {
             
         case "Estructura ciclica":
             
+            int tipoProductos = Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese la cantidad de tipos de productos:  "));
+            
+            EstructuraCiclica.CalcularTotalPagar(tipoProductos);
+            
             break;
             
         case "Integración estructuras condicionales y cíclicas": 

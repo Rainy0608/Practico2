@@ -77,6 +77,11 @@ public class Menu {
             
         case "Estructura dependiendo de o segun":
             
+             int DiaSemana = Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese el dia de la semana (1-7):  "));
+               int TotalPaga = Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese el total a pagar: "));
+               
+               EstructuraDependiendoDeOSegun.CalcularTotalConDescuento(DiaSemana, TotalPaga);
+             
             break;
             
         case "Estructura ciclica":

@@ -66,6 +66,13 @@ public class Menu {
             
         case "Condcional Anidado":
             
+             int cantidadBodega4 = Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese la cantidad que hay en bodega: "));
+          
+           int cantMinimaReq4 = Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese la cantidad minima requerida: "));
+            
+           CondicionalAnidado.DeterminarRealizacionPedido(cantidadBodega4, cantMinimaReq4);
+            
+            
             break;
             
         case "Estructura dependiendo de o segun":

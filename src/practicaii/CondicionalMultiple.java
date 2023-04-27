@@ -32,11 +32,6 @@ public class CondicionalMultiple {
               JOptionPane.showMessageDialog(null, "Si es necesario realizar el pedido al proveedor");
             return true;
         }
-           else{
-                          JOptionPane.showMessageDialog(null, "Solo numeros");
-           }
-      
-    
                
         return false;
         

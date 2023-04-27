@@ -94,6 +94,11 @@ public class Menu {
             
         case "Integración estructuras condicionales y cíclicas": 
             
+            int cantClientes = Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese la cantidad de clientes:  "));
+           
+            EstructuraCondicionalesYCiclicas.CalcularTotalPagar(cantClientes);
+            
+            
             break;
           
         default :

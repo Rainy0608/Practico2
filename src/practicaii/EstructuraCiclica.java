@@ -28,7 +28,7 @@ public class EstructuraCiclica {
                int cantProductos;
               
               
-            cantProductos  =  Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese la cantidad de productors de tipo de producto "+(i+1)+":")); 
+            cantProductos  =  Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese la cantidad de productos del tipo de producto "+(i+1)+":")); 
             
       lista.add(cantProductos);
        
